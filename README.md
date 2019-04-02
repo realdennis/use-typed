@@ -1,4 +1,8 @@
 # use-odometer
+[![Build Status](https://travis-ci.org/realdennis/use-typed.svg?branch=master)](https://travis-ci.org/realdennis/use-typed)
+[![Coverage Status](https://coveralls.io/repos/github/realdennis/use-typed/badge.svg?branch=master)](https://coveralls.io/github/realdennis/use-typed?branch=master)
+
+![Demo](https://media.giphy.com/media/jt9KXTqhairEudjIeR/giphy.gif)
 
 A React custom hook for an awesome library Typed.js, you can use it to make some fancy typed effect!
 
