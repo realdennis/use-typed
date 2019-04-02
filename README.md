@@ -6,6 +6,8 @@
 
 A React custom hook for an awesome library Typed.js, you can use it to make some fancy typed effect!
 
+[Demo](https://codesandbox.io/s/r0o29ry2rm)
+
 ## Installation
 
 ```bash
@@ -42,13 +44,14 @@ const Demo = () => {
   const demoTyped = useTyped(demoRef, options);
   // same as the prev example
   return (
-    <>
+    <div className="demo">
+       <span ref={demoRef} />
       <button onClick={() => demoTyped.toggle()}>Toggle</button>
       <button onClick={() => demoTyped.start()}>Start</button>
       <button onClick={() => demoTyped.stop()}>Stop</button>
       <button onClick={() => demoTyped.destroy()}>Destroy</button>
       <button onClick={() => demoTyped.reset()}>Reset</button>
-    </>
+    </div>
   );
 };
 ```
