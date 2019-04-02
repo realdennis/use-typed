@@ -4,7 +4,7 @@
 
 ![Demo](https://media.giphy.com/media/jt9KXTqhairEudjIeR/giphy.gif)
 
-A React custom hook for an awesome library Typed.js, you can use it to make some fancy typed effect!
+A React custom hook for an awesome library [Typed.js](https://github.com/mattboldt/typed.js), you can use it to make some fancy typed effect!
 
 [Demo](https://codesandbox.io/s/r0o29ry2rm)
 
