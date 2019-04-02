@@ -1,0 +1,34 @@
+{
+  "name": "use-typed",
+  "version": "0.0.1",
+  "description": "A react custom hook for Typed.js.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/realdennis/use-typed",
+  "author": "@realdennis",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "build": "microbundle build src/index.js --jsx React.createElement"
+  },
+  "dependencies": {
+    "typed.js": "^2.0.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.6.0",
+    "coveralls": "^3.0.3",
+    "jest": "^24.6.0",
+    "microbundle": "^0.11.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hooks-testing-library": "^0.4.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
+}
