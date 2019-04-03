@@ -1,4 +1,4 @@
-# use-odometer
+# use-typed
 [![Build Status](https://travis-ci.org/realdennis/use-typed.svg?branch=master)](https://travis-ci.org/realdennis/use-typed)
 [![Coverage Status](https://coveralls.io/repos/github/realdennis/use-typed/badge.svg?branch=master)](https://coveralls.io/github/realdennis/use-typed?branch=master)
 
@@ -46,11 +46,11 @@ const Demo = () => {
   return (
     <div className="demo">
        <span ref={demoRef} />
-      <button onClick={() => demoTyped.toggle()}>Toggle</button>
-      <button onClick={() => demoTyped.start()}>Start</button>
-      <button onClick={() => demoTyped.stop()}>Stop</button>
-      <button onClick={() => demoTyped.destroy()}>Destroy</button>
-      <button onClick={() => demoTyped.reset()}>Reset</button>
+       <button onClick={() => demoTyped.toggle()}>Toggle</button>
+       <button onClick={() => demoTyped.start()}>Start</button>
+       <button onClick={() => demoTyped.stop()}>Stop</button>
+       <button onClick={() => demoTyped.destroy()}>Destroy</button>
+       <button onClick={() => demoTyped.reset()}>Reset</button>
     </div>
   );
 };
