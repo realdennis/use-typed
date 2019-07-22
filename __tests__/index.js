@@ -1,8 +1,7 @@
 import React from 'react';
-import { renderHook, cleanup } from 'react-hooks-testing-library';
+import { renderHook } from '@testing-library/react-hooks';
 import Typed from 'typed.js';
 import useTyped from '../src/index.js';
-afterEach(cleanup);
 
 test('should not get the typed instance', () => {
   const { result } = renderHook(() => {
